@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/zxczxc"
+    android:weightSum="100">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main"
+        android:theme="@style/Toolbar"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        >
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="connection state : " />
+
+        <TextView
+            android:id="@+id/connection_status_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="75">
+
+
+        <Button
+            android:id="@+id/button_Bluetooth"
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/circle_border"
+            android:layout_gravity="bottom"
+            android:text="기기연결"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/button_Declare"
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="20dp"
+            android:background="@drawable/circle_border"
+            android:text="신고하기"
+            android:textColor="#ffff"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/button_ResultInquiry"
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:drawablePadding="18dip"
+            android:layout_gravity="bottom"
+            android:text="신고내역"
+            android:typeface="monospace"
+            android:textColor="#ffff"
+            android:background="@drawable/circle_border"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:orientation="horizontal"
+            android:layout_weight="100">
+
+            <Button
+                android:id="@+id/button_MyInformation"
+                android:layout_width="85dp"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:drawablePadding="18dip"
+                android:layout_gravity="top"
+                android:text="앱 정보"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="@drawable/circle_border"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/button_AppInformation"
+                android:layout_width="85dp"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:drawablePadding="18dip"
+                android:layout_gravity="top"
+                android:text="메뉴얼"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="@drawable/circle_border"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/button_Preferences"
+                android:layout_width="85dp"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:drawablePadding="18dip"
+                android:layout_gravity="top"
+                android:text="환경설정"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="@drawable/circle_border"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+

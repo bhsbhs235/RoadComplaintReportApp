@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=68:1C:58:9F:CF:7D:B4:24:CD:25:7A:34:0D:C0:D2:3D:0C:9A:EC:5B%3Bcom.example.small.onetouchbutton10
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    68:1C:58:9F:CF:7D:B4:24:CD:25:7A:34:0D:C0:D2:3D:0C:9A:EC:5B
+
+    SHA-1 certificate fingerprint:
+    68:1C:58:9F:CF:7D:B4:24:CD:25:7A:34:0D:C0:D2:3D:0C:9A:EC:5B
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyATXrjoXAe3lwMb7zz6dYBmtsYGOGPT_Yc</string>
+</resources>
